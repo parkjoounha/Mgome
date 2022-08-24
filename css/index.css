@@ -1,0 +1,63 @@
+@charset 'utf-8';
+.article1 {
+  background: rgb(7, 18, 26);
+}
+.article1 .slideInner > div { display:none }
+.article1 .slideInner > div.slide1 {
+  display:block
+}
+    
+.article2 {
+  background:url(../images/logo_1.png);
+  padding:50px;
+  
+}
+.article2 >div {
+  border:1px solid #000;
+  width:30%;
+  float:left;
+}
+.article2 >div:nth-child(2) {
+  margin:0 5%;
+}
+.article2 >div > img {
+  float: left;
+  margin-right:50px;
+}
+.article2 div.text {
+  padding: 20px;
+}
+.article3 {width:100%;}
+.article3 .tubewrap {
+  padding-top:56.25%;
+  position:relative;
+}
+.article3 .tubewrap iframe {
+  position: absolute;
+  top:0;
+  left:0;
+
+}
+.article4 h2 {
+  margin:50px 50px 0;
+  font-size:40px;
+  font-weight:bold;
+}
+.article4 ul {
+  margin:20px 50px;
+  overflow:hidden;
+}
+.article4 li {
+  float: left;
+  width:25%;
+  padding:20px;
+}
+.article4 li:first-child img { width:100% }
+.article4 li:nth-child(4n+1) {
+  clear:both
+}
+.article4 li p {
+  padding:30px 0;
+  font-size:18px;
+  font-weight:bold;
+}
